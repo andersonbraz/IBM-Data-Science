@@ -1,0 +1,88 @@
+# Peer Reviewed Assignment - Final Review
+
+## Prepare by Anderson Braz
+
+```python
+!easy_install ibm_db
+!easy_install ipython-sql
+```
+
+```python
+import ibm_db
+import ibm_db_sa
+import sqlalchemy
+%load_ext sql
+%sql ibm_db_sa://xjv02184:nv2vh506fjd%2Brvpr@dashdb-txn-sbox-yp-dal09-14.services.dal.bluemix.net:50000/BLUDB
+```
+
+```python
+%sql SELECT COUNT(*) FROM CENSUS_DATA; 
+```
+
+```python
+%sql SELECT COUNT(*) FROM CHICAGO_CRIME_DATA; 
+```
+
+```python
+%sql SELECT COUNT(*) FROM CHICAGO_PUBLIC_SCHOOLS; 
+```
+
+### Problem 1
+
+```python
+%sql SELECT COUNT(*) FROM CHICAGO_CRIME_DATA; 
+```
+
+### Problem 2
+
+```python
+%sql SELECT * FROM CHICAGO_CRIME_DATA FETCH FIRST 10 ROWS ONLY;
+```
+
+### Problem 3
+
+```python
+%sql SELECT COUNT(*) FROM CHICAGO_CRIME_DATA WHERE ARREST = 'TRUE';
+```
+
+### Problem 4
+
+```python
+%sql SELECT * FROM CHICAGO_CRIME_DATA WHERE LOCATION_DESCRIPTION = 'GAS STATION';
+```
+
+### Problem 5
+
+```python
+%sql SELECT * FROM CENSUS_DATA WHERE COMMUNITY_AREA_NAME LIKE 'B%';
+```
+
+### Problem 6
+
+```python
+%sql SELECT * FROM CHICAGO_PUBLIC_SCHOOLS WHERE HEALTHY_SCHOOL_CERTIFIED = 'Yes' AND COMMUNITY_AREA_NUMBER BETWEEN 10 AND 15;
+```
+
+### Problem 7
+
+```python
+%sql SELECT AVG(SAFETY_SCORE) FROM CHICAGO_PUBLIC_SCHOOLS;
+```
+
+### Problem 8
+
+```python
+%sql SELECT COMMUNITY_AREA_NAME, AVG(COLLEGE_ENROLLMENT) AS TOTAL_COLLEGE_ENROLLMENT FROM CHICAGO_PUBLIC_SCHOOLS GROUP BY COMMUNITY_AREA_NAME ORDER BY TOTAL_COLLEGE_ENROLLMENT DESC FETCH FIRST 5 ROWS ONLY;
+```
+
+### Problem 9
+
+```python
+%sql SELECT DISTINCT(COMMUNITY_AREA_NAME), SAFETY_SCORE FROM CHICAGO_PUBLIC_SCHOOLS WHERE SAFETY_SCORE IN(SELECT MIN(SAFETY_SCORE) FROM CHICAGO_PUBLIC_SCHOOLS);
+```
+
+### Problem 10
+
+```python
+%sql SELECT CD.PER_CAPITA_INCOME FROM CENSUS_DATA AS CD, CHICAGO_PUBLIC_SCHOOLS AS CPS WHERE CD.COMMUNITY_AREA_NUMBER = CPS.COMMUNITY_AREA_NUMBER AND CPS.SAFETY_SCORE = 1;
+```
