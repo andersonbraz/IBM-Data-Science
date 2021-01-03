@@ -1,26 +1,24 @@
-Neighborhood;Demonym;Population in 2010;Population/ Km²;Sub-neighborhoods;Coordinates;Zip Code
-Allapattah;;54,289;4,401;;25.815,-80.224;33125, 33127, 33142
-Arts & Entertainment District;;11,033;7,948;;25.799,-80.190;33132
-Brickell;Brickellite;31,759;14,541;West Brickell;25.758,-80.193;33129, 33130, 33131
-Buena Vista;;9,058;3,540;Buena Vista East Historic District and Design District;25.813,-80.192;33127, 33137
-Coconut Grove;Grovite;20,076;3,091;Center Grove, Northeast Coconut Grove, Southwest Coconut Grove, and the West Grove (Black Grove);25.712,-80.257;33133
-Coral Way;;35,062;4,496;Coral Gate, Golden Pines, Shenandoah, Historic Shenandoah, and Silver Bluff;25.750,-80.283;33145
-Design District;;3,573;3,623;;25.813,-80.193;33127, 33137
-Downtown;Downtowner;71,000;10,613;Brickell, Central Business District (CBD), Downtown Miami Historic District, Jewelry District, Lummus Park, Arts & Entertainment District, and Park West;25.774,-80.193;33128, 33129, 33130, 33131, 33132, 33136
-Edgewater;;15,000;6,675;;25.802,-80.190;33137, 33132
-Flagami;;50,834;5,665;Alameda, Grapeland Heights, and Fairlawn;25.762,-80.316;33125, 33126, 33128, 33130, 33135, 33144
-Grapeland Heights;;14,004;4,130;;25.792,-80.258;33125, 33126
-Health District;;2,705;2,148;33136
-Liberty City;;19,725;3,733;;25.832,-80.225;33125, 33127, 33142, 33147, 33150
-Little Haiti;;29,760;3,840;Lemon City (aka Little River);25.824,-80.191;33127, 33137, 33138, 33150
-Little Havana;;76,163;8,423Riverside and South River Drive Historic District;25.773,-80.215;33125, 33126, 33128, 33130, 33135
-Lummus Park;;3,027;3,680;;25.777,-80.201;33136
-Midtown	Midtowner;;;Edgewater and Wynwood;;25.807,-80.193;33136, 33127, 33132, 33137
-Overtown;Towner;6,736;3,405;Spring Garden;25.787,-80.201;33136
-Park West;;4,655;3,635;;25.785,-80.193;33132
-The Roads;;7,327;4,899;25.756,-80.207;33129
-Upper Eastside;Upper Eastsider;12,525;2,513;Bay Point Estates, Bayside District, Belle Meade, Ironside, Magnolia Park, MiMo Historic District, Morningside, Palm Grove, and Shorecrest;25.830,-80.183;33137, 33138
-Venetian Islands;;N/A;N/A;Biscayne Island and San Marco Island;25.791,-80.161;33139
-Virginia Key;;14;-;;25.736,-80.155;33149
-West Flagler;;31,407;4,428;;25.775,-80.243;33125, 33135
-Wynwood	Wynwoodian;7,277;2,983;Wynwood Art District and Wynwood Fashion District;25.804,-80.199;33127
+Neighborhood;Latitude;Longitude
+Allapattah;25.815;-80.224
+Arts & Entertainment District;;-25.799;-80.190
+Brickell;25.758;-80.193
+Buena Vista;25.813;-80.192
+Coconut Grove;25.712;-80.257
+Coral Way;25.750;-80.283
+Design District;25.813;-80.193
+Downtown;25.774;-80.193
+Edgewater;25.802;-80.190
+Flagami;25.762;-80.316
+Grapeland Heights;25.792;-80.258
+Liberty City;25.832;-80.225
+Little Haiti;25.824;-80.191
+Little Havana;25.773;-80.215
+Lummus Park;25.777;-80.201
+Midtown;25.807;-80.193
+Overtown;25.787;-80.201
+Park West;25.785;-80.193
+The Roads;25.756;-80.207
+Upper Eastside;25.830;-80.183
+Venetian Islands;25.791;-80.161
+Virginia Key;25.736;-80.155
+West Flagler;25.775;-80.243
