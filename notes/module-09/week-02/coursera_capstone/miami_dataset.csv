@@ -1,24 +1,24 @@
-Neighborhood;Latitude;Longitude
-Allapattah;25.815;-80.224
-Arts & Entertainment District;;-25.799;-80.190
-Brickell;25.758;-80.193
-Buena Vista;25.813;-80.192
-Coconut Grove;25.712;-80.257
-Coral Way;25.750;-80.283
-Design District;25.813;-80.193
-Downtown;25.774;-80.193
-Edgewater;25.802;-80.190
-Flagami;25.762;-80.316
-Grapeland Heights;25.792;-80.258
-Liberty City;25.832;-80.225
-Little Haiti;25.824;-80.191
-Little Havana;25.773;-80.215
-Lummus Park;25.777;-80.201
-Midtown;25.807;-80.193
-Overtown;25.787;-80.201
-Park West;25.785;-80.193
-The Roads;25.756;-80.207
-Upper Eastside;25.830;-80.183
-Venetian Islands;25.791;-80.161
-Virginia Key;25.736;-80.155
-West Flagler;25.775;-80.243
+Neighborhood,Latitude,Longitude
+Allapattah,25.815,-80.224
+Arts & Entertainment District,-25.799,-80.190
+Brickell,25.758,-80.193
+Buena Vista,25.813,-80.192
+Coconut Grove,25.712,-80.257
+Coral Way,25.750,-80.283
+Design District,25.813,-80.193
+Downtown,25.774,-80.193
+Edgewater,25.802,-80.190
+Flagami,25.762,-80.316
+Grapeland Heights,25.792,-80.258
+Liberty City,25.832,-80.225
+Little Haiti,25.824,-80.191
+Little Havana,25.773,-80.215
+Lummus Park,25.777,-80.201
+Midtown,25.807,-80.193
+Overtown,25.787,-80.201
+Park West,25.785,-80.193
+The Roads,25.756,-80.207
+Upper Eastside,25.830,-80.183
+Venetian Islands,25.791,-80.161
+Virginia Key,25.736,-80.155
+West Flagler,25.775,-80.243
